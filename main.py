@@ -37,6 +37,7 @@ conversion_factor = 3.3 / (65535)
 I2C_ADDR = i2c.scan()[0]
 lcd = I2cLcd(i2c, I2C_ADDR, 2, 16)
 
+lcd.putstr("Hello, World!")
 while True:
     
     text = input("Text: ")
