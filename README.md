@@ -18,7 +18,7 @@ Type any text to display it
 You can use that without thonny, but you need to install wsl and any distro
 Installing:  
 sudo apt install minicom  
-minicom -D /dev/ttyS<<COM Number>>
+minicom -D /dev/ttyS(Com number)
 # Change start message
 in main.py before while(true) cycle you will see lcd.putstr()  
   
